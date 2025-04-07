@@ -54,7 +54,7 @@ namespace UAssetGUI
             this.closeButton.Name = "closeButton";
             this.closeButton.Size = new System.Drawing.Size(75, 26);
             this.closeButton.TabIndex = 6;
-            this.closeButton.Text = "Close";
+            this.closeButton.Text = "关闭";
             this.closeButton.UseVisualStyleBackColor = true;
             this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
             // 
@@ -65,7 +65,7 @@ namespace UAssetGUI
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(59, 13);
             this.label1.TabIndex = 6;
-            this.label1.Text = "Search for:";
+            this.label1.Text = "查找:";
             // 
             // searchForBox
             // 
@@ -84,7 +84,7 @@ namespace UAssetGUI
             this.nextButton.Name = "nextButton";
             this.nextButton.Size = new System.Drawing.Size(75, 26);
             this.nextButton.TabIndex = 5;
-            this.nextButton.Text = "Next";
+            this.nextButton.Text = "下一个";
             this.nextButton.UseVisualStyleBackColor = true;
             this.nextButton.Click += new System.EventHandler(this.nextButton_Click);
             // 
@@ -97,7 +97,7 @@ namespace UAssetGUI
             this.searchDirectionGroupBox.Size = new System.Drawing.Size(99, 65);
             this.searchDirectionGroupBox.TabIndex = 11;
             this.searchDirectionGroupBox.TabStop = false;
-            this.searchDirectionGroupBox.Text = "Search direction";
+            this.searchDirectionGroupBox.Text = "搜索方向";
             // 
             // searchDirBackwardButton
             // 
@@ -107,7 +107,7 @@ namespace UAssetGUI
             this.searchDirBackwardButton.Size = new System.Drawing.Size(73, 17);
             this.searchDirBackwardButton.TabIndex = 4;
             this.searchDirBackwardButton.TabStop = true;
-            this.searchDirBackwardButton.Text = "Backward";
+            this.searchDirBackwardButton.Text = "向后";
             this.searchDirBackwardButton.UseVisualStyleBackColor = true;
             // 
             // searchDirForwardButton
@@ -118,7 +118,7 @@ namespace UAssetGUI
             this.searchDirForwardButton.Size = new System.Drawing.Size(63, 17);
             this.searchDirForwardButton.TabIndex = 3;
             this.searchDirForwardButton.TabStop = true;
-            this.searchDirForwardButton.Text = "Forward";
+            this.searchDirForwardButton.Text = "向前";
             this.searchDirForwardButton.UseVisualStyleBackColor = true;
             // 
             // optionsGroupBox
@@ -130,7 +130,7 @@ namespace UAssetGUI
             this.optionsGroupBox.Size = new System.Drawing.Size(164, 65);
             this.optionsGroupBox.TabIndex = 12;
             this.optionsGroupBox.TabStop = false;
-            this.optionsGroupBox.Text = "Options";
+            this.optionsGroupBox.Text = "选项";
             // 
             // useRegexCheckBox
             // 
@@ -139,7 +139,7 @@ namespace UAssetGUI
             this.useRegexCheckBox.Name = "useRegexCheckBox";
             this.useRegexCheckBox.Size = new System.Drawing.Size(74, 17);
             this.useRegexCheckBox.TabIndex = 2;
-            this.useRegexCheckBox.Text = "Use regex";
+            this.useRegexCheckBox.Text = "使用 正则";
             this.useRegexCheckBox.UseVisualStyleBackColor = true;
             // 
             // caseSensitiveCheckBox
@@ -149,7 +149,7 @@ namespace UAssetGUI
             this.caseSensitiveCheckBox.Name = "caseSensitiveCheckBox";
             this.caseSensitiveCheckBox.Size = new System.Drawing.Size(94, 17);
             this.caseSensitiveCheckBox.TabIndex = 1;
-            this.caseSensitiveCheckBox.Text = "Case sensitive";
+            this.caseSensitiveCheckBox.Text = "区分大小写";
             this.caseSensitiveCheckBox.UseVisualStyleBackColor = true;
             // 
             // progressBar1
@@ -173,7 +173,7 @@ namespace UAssetGUI
             this.Controls.Add(this.closeButton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "FindForm";
-            this.Text = "Find";
+            this.Text = "查找";
             this.Load += new System.EventHandler(this.FindForm_Load);
             this.searchDirectionGroupBox.ResumeLayout(false);
             this.searchDirectionGroupBox.PerformLayout();

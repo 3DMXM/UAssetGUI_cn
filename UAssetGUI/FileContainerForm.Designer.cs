@@ -92,7 +92,7 @@ namespace UAssetGUI
             loadButton.Name = "loadButton";
             loadButton.Size = new System.Drawing.Size(120, 42);
             loadButton.TabIndex = 3;
-            loadButton.Text = "Load...";
+            loadButton.Text = "加载...";
             loadButton.UseVisualStyleBackColor = true;
             loadButton.Click += loadButton_Click;
             // 
@@ -120,7 +120,7 @@ namespace UAssetGUI
             saveButton.Name = "saveButton";
             saveButton.Size = new System.Drawing.Size(120, 42);
             saveButton.TabIndex = 4;
-            saveButton.Text = "Save...";
+            saveButton.Text = "保存...";
             saveButton.UseVisualStyleBackColor = true;
             saveButton.Click += saveButton_Click;
             // 
@@ -153,14 +153,14 @@ namespace UAssetGUI
             fileToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { loadToolStripMenuItem, saveToolStripMenuItem, stageFromDiskToolStripMenuItem, stageFromDiskToPathToolStripMenuItem });
             fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
-            fileToolStripMenuItem.Text = "File";
+            fileToolStripMenuItem.Text = "文件";
             // 
             // loadToolStripMenuItem
             // 
             loadToolStripMenuItem.Name = "loadToolStripMenuItem";
             loadToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.O;
             loadToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
-            loadToolStripMenuItem.Text = "Open";
+            loadToolStripMenuItem.Text = "打开";
             loadToolStripMenuItem.Click += loadToolStripMenuItem_Click;
             // 
             // saveToolStripMenuItem
@@ -168,7 +168,7 @@ namespace UAssetGUI
             saveToolStripMenuItem.Name = "saveToolStripMenuItem";
             saveToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.S;
             saveToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
-            saveToolStripMenuItem.Text = "Save";
+            saveToolStripMenuItem.Text = "保存";
             saveToolStripMenuItem.Click += saveToolStripMenuItem_Click;
             // 
             // stageFromDiskToolStripMenuItem
@@ -183,34 +183,34 @@ namespace UAssetGUI
             editToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { cutToolStripMenuItem, copyToolStripMenuItem, pasteToolStripMenuItem, deleteToolStripMenuItem });
             editToolStripMenuItem.Name = "editToolStripMenuItem";
             editToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
-            editToolStripMenuItem.Text = "Edit";
+            editToolStripMenuItem.Text = "编辑";
             // 
             // cutToolStripMenuItem
             // 
             cutToolStripMenuItem.Name = "cutToolStripMenuItem";
             cutToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
-            cutToolStripMenuItem.Text = "Cut";
+            cutToolStripMenuItem.Text = "剪切";
             cutToolStripMenuItem.Click += cutToolStripMenuItem_Click;
             // 
             // copyToolStripMenuItem
             // 
             copyToolStripMenuItem.Name = "copyToolStripMenuItem";
             copyToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
-            copyToolStripMenuItem.Text = "Copy";
+            copyToolStripMenuItem.Text = "复制";
             copyToolStripMenuItem.Click += copyToolStripMenuItem_Click;
             // 
             // pasteToolStripMenuItem
             // 
             pasteToolStripMenuItem.Name = "pasteToolStripMenuItem";
             pasteToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
-            pasteToolStripMenuItem.Text = "Paste";
+            pasteToolStripMenuItem.Text = "粘贴";
             pasteToolStripMenuItem.Click += pasteToolStripMenuItem_Click;
             // 
             // deleteToolStripMenuItem
             // 
             deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
             deleteToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
-            deleteToolStripMenuItem.Text = "Delete";
+            deleteToolStripMenuItem.Text = "删除";
             deleteToolStripMenuItem.Click += deleteToolStripMenuItem_Click;
             // 
             // viewToolStripMenuItem
@@ -218,14 +218,14 @@ namespace UAssetGUI
             viewToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { expandAllToolStripMenuItem, collapseAllToolStripMenuItem, refreshToolStripMenuItem });
             viewToolStripMenuItem.Name = "viewToolStripMenuItem";
             viewToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
-            viewToolStripMenuItem.Text = "View";
+            viewToolStripMenuItem.Text = "视图";
             // 
             // expandAllToolStripMenuItem
             // 
             expandAllToolStripMenuItem.Name = "expandAllToolStripMenuItem";
             expandAllToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.M;
             expandAllToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
-            expandAllToolStripMenuItem.Text = "Expand All";
+            expandAllToolStripMenuItem.Text = "展开全部";
             expandAllToolStripMenuItem.Click += expandAllToolStripMenuItem_Click;
             // 
             // collapseAllToolStripMenuItem
@@ -233,7 +233,7 @@ namespace UAssetGUI
             collapseAllToolStripMenuItem.Name = "collapseAllToolStripMenuItem";
             collapseAllToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.L;
             collapseAllToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
-            collapseAllToolStripMenuItem.Text = "Collapse All";
+            collapseAllToolStripMenuItem.Text = "折叠全部";
             collapseAllToolStripMenuItem.Click += collapseAllToolStripMenuItem_Click;
             // 
             // refreshToolStripMenuItem
@@ -241,7 +241,7 @@ namespace UAssetGUI
             refreshToolStripMenuItem.Name = "refreshToolStripMenuItem";
             refreshToolStripMenuItem.ShortcutKeys = Keys.F5;
             refreshToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
-            refreshToolStripMenuItem.Text = "Refresh";
+            refreshToolStripMenuItem.Text = "刷新";
             refreshToolStripMenuItem.Click += refreshToolStripMenuItem_Click;
             // 
             // utilsToolStripMenuItem
@@ -249,13 +249,13 @@ namespace UAssetGUI
             utilsToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { extractAllToolStripMenuItem });
             utilsToolStripMenuItem.Name = "utilsToolStripMenuItem";
             utilsToolStripMenuItem.Size = new System.Drawing.Size(42, 20);
-            utilsToolStripMenuItem.Text = "Utils";
+            utilsToolStripMenuItem.Text = "工具";
             // 
             // extractAllToolStripMenuItem
             // 
             extractAllToolStripMenuItem.Name = "extractAllToolStripMenuItem";
             extractAllToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
-            extractAllToolStripMenuItem.Text = "Extract all...";
+            extractAllToolStripMenuItem.Text = "全部提取...";
             extractAllToolStripMenuItem.Click += extractAllToolStripMenuItem_Click;
             // 
             // extractAllBackgroundWorker
@@ -270,7 +270,7 @@ namespace UAssetGUI
             // 
             stageFromDiskToPathToolStripMenuItem.Name = "stageFromDiskToPathToolStripMenuItem";
             stageFromDiskToPathToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
-            stageFromDiskToPathToolStripMenuItem.Text = "Stage from disk to path...";
+            stageFromDiskToPathToolStripMenuItem.Text = "从磁盘导入为路径...";
             stageFromDiskToPathToolStripMenuItem.Click += stageFromDiskToPathToolStripMenuItem_Click;
             // 
             // FileContainerForm

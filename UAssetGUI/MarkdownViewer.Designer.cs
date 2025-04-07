@@ -52,7 +52,7 @@
             closeButton.Name = "closeButton";
             closeButton.Size = new System.Drawing.Size(88, 30);
             closeButton.TabIndex = 5;
-            closeButton.Text = "Close";
+            closeButton.Text = "取消";
             closeButton.UseVisualStyleBackColor = true;
             closeButton.Click += closeButton_Click;
             // 

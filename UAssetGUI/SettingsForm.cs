@@ -68,10 +68,11 @@ namespace UAssetGUI
                 var formPopup = new AboutForm();
 
                 formPopup.AboutText = (this.Owner as Form1).DisplayVersion + "\n" +
-                "By atenfyr\n" +
-                "\nThank you to trumank, LongerWarrior, Kaiheilos, and others for all your generous contributions to this software\n" +
-                "\nThank you to the love of my life for listening to me and supporting me despite not caring at all about any of this\n" +
-                "\nThank you for using this thing even after " + softwareAgeInYears + " years\n";
+                "作者 atenfyr\n" +
+                "汉化 小莫" +
+                "\n感谢 trumank, LongerWarrior, Kaiheilos, 和其他人对本软件的慷慨赞助\n" +
+                "\n感谢感谢我一生挚爱的人，尽管她对这一切毫不在意，但她仍然倾听我、支持我\n" +
+                "\n感谢即使在 " + softwareAgeInYears + " 年后仍然能够正常使用此软件\n";
 
                 formPopup.StartPosition = FormStartPosition.CenterParent;
                 formPopup.ShowDialog(this);
@@ -159,7 +160,7 @@ namespace UAssetGUI
             {
                 // need MemoryStream to remain open until we're done using the image
                 // no need to dispose MemoryStream so let's just let GC handle it once image stops being used
-                var strm = new MemoryStream(Properties.Resources.dancing_cat); 
+                var strm = new MemoryStream(Properties.Resources.dancing_cat);
                 this.pictureBox1.Image = Image.FromStream(strm);
                 this.pictureBox1.Visible = true;
             }

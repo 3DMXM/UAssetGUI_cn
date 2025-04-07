@@ -52,7 +52,7 @@
             cancelButton.Name = "cancelButton";
             cancelButton.Size = new System.Drawing.Size(90, 31);
             cancelButton.TabIndex = 15;
-            cancelButton.Text = "Cancel...";
+            cancelButton.Text = "取消...";
             cancelButton.UseVisualStyleBackColor = true;
             cancelButton.Click += cancelButton_Click;
             // 

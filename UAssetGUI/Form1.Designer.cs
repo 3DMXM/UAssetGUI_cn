@@ -95,21 +95,21 @@ namespace UAssetGUI
             fileToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { openToolStripMenuItem, openContainersToolStripMenuItem, saveToolStripMenuItem, saveAsToolStripMenuItem });
             fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
-            fileToolStripMenuItem.Text = "File";
+            fileToolStripMenuItem.Text = "文件";
             // 
             // openToolStripMenuItem
             // 
             openToolStripMenuItem.Name = "openToolStripMenuItem";
             openToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.O;
             openToolStripMenuItem.Size = new System.Drawing.Size(224, 22);
-            openToolStripMenuItem.Text = "Open";
+            openToolStripMenuItem.Text = "打开";
             openToolStripMenuItem.Click += openToolStripMenuItem_Click;
             // 
             // openContainersToolStripMenuItem
             // 
             openContainersToolStripMenuItem.Name = "openContainersToolStripMenuItem";
             openContainersToolStripMenuItem.Size = new System.Drawing.Size(224, 22);
-            openContainersToolStripMenuItem.Text = "Open containers...";
+            openContainersToolStripMenuItem.Text = "打开 containers...";
             openContainersToolStripMenuItem.Click += openContainersToolStripMenuItem_Click;
             // 
             // saveToolStripMenuItem
@@ -118,7 +118,7 @@ namespace UAssetGUI
             saveToolStripMenuItem.Name = "saveToolStripMenuItem";
             saveToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.S;
             saveToolStripMenuItem.Size = new System.Drawing.Size(224, 22);
-            saveToolStripMenuItem.Text = "Save";
+            saveToolStripMenuItem.Text = "保存";
             saveToolStripMenuItem.Click += saveToolStripMenuItem_Click;
             // 
             // saveAsToolStripMenuItem
@@ -127,7 +127,7 @@ namespace UAssetGUI
             saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
             saveAsToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.Shift | Keys.S;
             saveAsToolStripMenuItem.Size = new System.Drawing.Size(224, 22);
-            saveAsToolStripMenuItem.Text = "Save As";
+            saveAsToolStripMenuItem.Text = "保存为...";
             saveAsToolStripMenuItem.Click += saveAsToolStripMenuItem_Click;
             // 
             // editToolStripMenuItem
@@ -135,27 +135,27 @@ namespace UAssetGUI
             editToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { copyToolStripMenuItem, pasteToolStripMenuItem, deleteToolStripMenuItem, findToolStripMenuItem, mapStructTypeOverridesToolStripMenuItem, settingsToolStripMenuItem });
             editToolStripMenuItem.Name = "editToolStripMenuItem";
             editToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
-            editToolStripMenuItem.Text = "Edit";
+            editToolStripMenuItem.Text = "编辑";
             // 
             // copyToolStripMenuItem
             // 
             copyToolStripMenuItem.Name = "copyToolStripMenuItem";
             copyToolStripMenuItem.Size = new System.Drawing.Size(240, 22);
-            copyToolStripMenuItem.Text = "Copy";
+            copyToolStripMenuItem.Text = "复制";
             copyToolStripMenuItem.Click += copyToolStripMenuItem_Click;
             // 
             // pasteToolStripMenuItem
             // 
             pasteToolStripMenuItem.Name = "pasteToolStripMenuItem";
             pasteToolStripMenuItem.Size = new System.Drawing.Size(240, 22);
-            pasteToolStripMenuItem.Text = "Paste";
+            pasteToolStripMenuItem.Text = "粘贴";
             pasteToolStripMenuItem.Click += pasteToolStripMenuItem_Click;
             // 
             // deleteToolStripMenuItem
             // 
             deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
             deleteToolStripMenuItem.Size = new System.Drawing.Size(240, 22);
-            deleteToolStripMenuItem.Text = "Delete";
+            deleteToolStripMenuItem.Text = "删除";
             deleteToolStripMenuItem.Click += deleteToolStripMenuItem_Click;
             // 
             // findToolStripMenuItem
@@ -164,21 +164,21 @@ namespace UAssetGUI
             findToolStripMenuItem.Name = "findToolStripMenuItem";
             findToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.F;
             findToolStripMenuItem.Size = new System.Drawing.Size(240, 22);
-            findToolStripMenuItem.Text = "Find...";
+            findToolStripMenuItem.Text = "查找...";
             findToolStripMenuItem.Click += findToolStripMenuItem_Click;
             // 
             // mapStructTypeOverridesToolStripMenuItem
             // 
             mapStructTypeOverridesToolStripMenuItem.Name = "mapStructTypeOverridesToolStripMenuItem";
             mapStructTypeOverridesToolStripMenuItem.Size = new System.Drawing.Size(240, 22);
-            mapStructTypeOverridesToolStripMenuItem.Text = "Edit map struct type overrides...";
+            mapStructTypeOverridesToolStripMenuItem.Text = "编辑 map struct type overrides...";
             mapStructTypeOverridesToolStripMenuItem.Click += mapStructTypeOverridesToolStripMenuItem_Click;
             // 
             // settingsToolStripMenuItem
             // 
             settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
             settingsToolStripMenuItem.Size = new System.Drawing.Size(240, 22);
-            settingsToolStripMenuItem.Text = "Settings...";
+            settingsToolStripMenuItem.Text = "设置...";
             settingsToolStripMenuItem.Click += settingsToolStripMenuItem_Click;
             // 
             // viewToolStripMenuItem
@@ -186,14 +186,14 @@ namespace UAssetGUI
             viewToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { expandAllToolStripMenuItem, collapseAllToolStripMenuItem, refreshToolStripMenuItem, recalculateNodesToolStripMenuItem });
             viewToolStripMenuItem.Name = "viewToolStripMenuItem";
             viewToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
-            viewToolStripMenuItem.Text = "View";
+            viewToolStripMenuItem.Text = "视图";
             // 
             // expandAllToolStripMenuItem
             // 
             expandAllToolStripMenuItem.Name = "expandAllToolStripMenuItem";
             expandAllToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.M;
             expandAllToolStripMenuItem.Size = new System.Drawing.Size(260, 22);
-            expandAllToolStripMenuItem.Text = "Expand All";
+            expandAllToolStripMenuItem.Text = "展开全部";
             expandAllToolStripMenuItem.Click += expandAllToolStripMenuItem_Click;
             // 
             // collapseAllToolStripMenuItem
@@ -201,7 +201,7 @@ namespace UAssetGUI
             collapseAllToolStripMenuItem.Name = "collapseAllToolStripMenuItem";
             collapseAllToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.L;
             collapseAllToolStripMenuItem.Size = new System.Drawing.Size(260, 22);
-            collapseAllToolStripMenuItem.Text = "Collapse All";
+            collapseAllToolStripMenuItem.Text = "折叠全部";
             collapseAllToolStripMenuItem.Click += collapseAllToolStripMenuItem_Click;
             // 
             // refreshToolStripMenuItem
@@ -209,7 +209,7 @@ namespace UAssetGUI
             refreshToolStripMenuItem.Name = "refreshToolStripMenuItem";
             refreshToolStripMenuItem.ShortcutKeys = Keys.F5;
             refreshToolStripMenuItem.Size = new System.Drawing.Size(260, 22);
-            refreshToolStripMenuItem.Text = "Refresh";
+            refreshToolStripMenuItem.Text = "刷新";
             refreshToolStripMenuItem.Click += refreshToolStripMenuItem_Click;
             // 
             // recalculateNodesToolStripMenuItem
@@ -217,7 +217,7 @@ namespace UAssetGUI
             recalculateNodesToolStripMenuItem.Name = "recalculateNodesToolStripMenuItem";
             recalculateNodesToolStripMenuItem.ShortcutKeys = Keys.Shift | Keys.F5;
             recalculateNodesToolStripMenuItem.Size = new System.Drawing.Size(260, 22);
-            recalculateNodesToolStripMenuItem.Text = "Recalculate Nodes";
+            recalculateNodesToolStripMenuItem.Text = "重新计算节点";
             recalculateNodesToolStripMenuItem.Click += refreshFullToolStripMenuItem_Click;
             // 
             // utilsToolStripMenuItem
@@ -225,20 +225,20 @@ namespace UAssetGUI
             utilsToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { importMappingsToolStripMenuItem, patchusmapWithsavVersionInfoToolStripMenuItem, listValidPropertiesToolStripMenuItem });
             utilsToolStripMenuItem.Name = "utilsToolStripMenuItem";
             utilsToolStripMenuItem.Size = new System.Drawing.Size(42, 20);
-            utilsToolStripMenuItem.Text = "Utils";
+            utilsToolStripMenuItem.Text = "工具";
             // 
             // importMappingsToolStripMenuItem
             // 
             importMappingsToolStripMenuItem.Name = "importMappingsToolStripMenuItem";
             importMappingsToolStripMenuItem.Size = new System.Drawing.Size(269, 22);
-            importMappingsToolStripMenuItem.Text = "Import mappings...";
+            importMappingsToolStripMenuItem.Text = "导入 mappings...";
             importMappingsToolStripMenuItem.Click += importMappingsToolStripMenuItem_Click;
             // 
             // patchusmapWithsavVersionInfoToolStripMenuItem
             // 
             patchusmapWithsavVersionInfoToolStripMenuItem.Name = "patchusmapWithsavVersionInfoToolStripMenuItem";
             patchusmapWithsavVersionInfoToolStripMenuItem.Size = new System.Drawing.Size(269, 22);
-            patchusmapWithsavVersionInfoToolStripMenuItem.Text = "Patch .usmap with .sav version info...";
+            patchusmapWithsavVersionInfoToolStripMenuItem.Text = "使用 .sav 版本信息修补 .usmap...";
             patchusmapWithsavVersionInfoToolStripMenuItem.Click += patchusmapWithsavVersionInfoToolStripMenuItem_Click;
             // 
             // listValidPropertiesToolStripMenuItem
@@ -253,7 +253,7 @@ namespace UAssetGUI
             helpToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { configDirToolStripMenuItem, issuesToolStripMenuItem, githubToolStripMenuItem, apiLinkToolStripMenuItem1 });
             helpToolStripMenuItem.Name = "helpToolStripMenuItem";
             helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
-            helpToolStripMenuItem.Text = "Help";
+            helpToolStripMenuItem.Text = "帮助";
             // 
             // configDirToolStripMenuItem
             // 
@@ -266,7 +266,7 @@ namespace UAssetGUI
             // 
             issuesToolStripMenuItem.Name = "issuesToolStripMenuItem";
             issuesToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
-            issuesToolStripMenuItem.Text = "Give feedback";
+            issuesToolStripMenuItem.Text = "提供反馈";
             issuesToolStripMenuItem.Click += issuesToolStripMenuItem_Click;
             // 
             // githubToolStripMenuItem
@@ -282,6 +282,12 @@ namespace UAssetGUI
             apiLinkToolStripMenuItem1.Size = new System.Drawing.Size(199, 22);
             apiLinkToolStripMenuItem1.Text = "UAssetAPI on GitHub";
             apiLinkToolStripMenuItem1.Click += apiLinkToolStripMenuItem_Click;
+
+            apiLinkToolStripMenuItem1.Name = "apiLinkToolStripMenuItem2";
+            apiLinkToolStripMenuItem1.Size = new System.Drawing.Size(199, 22);
+            apiLinkToolStripMenuItem1.Text = "参与汉化";
+            apiLinkToolStripMenuItem1.Click += apiLinkToolStripMenuItem2_Click;
+
             // 
             // dataGridView1
             // 
@@ -348,7 +354,7 @@ namespace UAssetGUI
             // 
             replaceAllReferencesToolStripMenuItem.Name = "replaceAllReferencesToolStripMenuItem";
             replaceAllReferencesToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
-            replaceAllReferencesToolStripMenuItem.Text = "Replace all references...";
+            replaceAllReferencesToolStripMenuItem.Text = "替换所有引用...";
             replaceAllReferencesToolStripMenuItem.Click += replaceAllReferencesToolStripMenuItem_Click;
             // 
             // importBinaryData
@@ -359,7 +365,7 @@ namespace UAssetGUI
             importBinaryData.Name = "importBinaryData";
             importBinaryData.Size = new System.Drawing.Size(88, 27);
             importBinaryData.TabIndex = 4;
-            importBinaryData.Text = "Import";
+            importBinaryData.Text = "导入";
             importBinaryData.UseVisualStyleBackColor = true;
             importBinaryData.Click += importBinaryData_Click;
             // 
@@ -371,7 +377,7 @@ namespace UAssetGUI
             exportBinaryData.Name = "exportBinaryData";
             exportBinaryData.Size = new System.Drawing.Size(88, 27);
             exportBinaryData.TabIndex = 5;
-            exportBinaryData.Text = "Export";
+            exportBinaryData.Text = "导出";
             exportBinaryData.UseVisualStyleBackColor = true;
             exportBinaryData.Click += exportBinaryData_Click;
             // 
@@ -383,7 +389,7 @@ namespace UAssetGUI
             setBinaryData.Name = "setBinaryData";
             setBinaryData.Size = new System.Drawing.Size(88, 27);
             setBinaryData.TabIndex = 6;
-            setBinaryData.Text = "Set to null...";
+            setBinaryData.Text = "设置为 null...";
             setBinaryData.UseVisualStyleBackColor = true;
             setBinaryData.Click += setBinaryData_Click;
             // 

@@ -44,7 +44,7 @@ namespace UAssetGUI
             this.mainLabel.Name = "mainLabel";
             this.mainLabel.Size = new System.Drawing.Size(361, 20);
             this.mainLabel.TabIndex = 4;
-            this.mainLabel.Text = "Select your game installation directory:";
+            this.mainLabel.Text = "选择你的游戏安装目录:";
             this.mainLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // gamePathBox
@@ -69,7 +69,7 @@ namespace UAssetGUI
             this.cancelButton.Name = "cancelButton";
             this.cancelButton.Size = new System.Drawing.Size(67, 26);
             this.cancelButton.TabIndex = 3;
-            this.cancelButton.Text = "Cancel";
+            this.cancelButton.Text = "取消";
             this.cancelButton.UseVisualStyleBackColor = false;
             this.cancelButton.Click += new System.EventHandler(this.cancelButton_Click);
             // 
@@ -86,7 +86,7 @@ namespace UAssetGUI
             this.okButton.Name = "okButton";
             this.okButton.Size = new System.Drawing.Size(49, 26);
             this.okButton.TabIndex = 2;
-            this.okButton.Text = "OK";
+            this.okButton.Text = "确定";
             this.okButton.UseVisualStyleBackColor = false;
             this.okButton.Click += new System.EventHandler(this.okButton_Click);
             // 

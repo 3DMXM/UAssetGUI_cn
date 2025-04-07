@@ -45,7 +45,7 @@ namespace UAssetGUI
             this.closeButton.Name = "closeButton";
             this.closeButton.Size = new System.Drawing.Size(75, 26);
             this.closeButton.TabIndex = 4;
-            this.closeButton.Text = "Close";
+            this.closeButton.Text = "关闭";
             this.closeButton.UseVisualStyleBackColor = true;
             this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
             // 
@@ -59,7 +59,7 @@ namespace UAssetGUI
             this.licenseButton.Name = "licenseButton";
             this.licenseButton.Size = new System.Drawing.Size(103, 26);
             this.licenseButton.TabIndex = 2;
-            this.licenseButton.Text = "View license...";
+            this.licenseButton.Text = "查看许可证...";
             this.licenseButton.UseVisualStyleBackColor = true;
             this.licenseButton.Click += new System.EventHandler(this.licenseButton_Click);
             // 
@@ -84,7 +84,7 @@ namespace UAssetGUI
             this.noticeButton.Name = "noticeButton";
             this.noticeButton.Size = new System.Drawing.Size(161, 26);
             this.noticeButton.TabIndex = 3;
-            this.noticeButton.Text = "View 3rd-party software...";
+            this.noticeButton.Text = "查看第三方软件...";
             this.noticeButton.UseVisualStyleBackColor = true;
             this.noticeButton.Click += new System.EventHandler(this.noticeButton_Click);
             // 
@@ -99,7 +99,7 @@ namespace UAssetGUI
             this.Controls.Add(this.closeButton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "AboutForm";
-            this.Text = "About";
+            this.Text = "关于";
             this.Load += new System.EventHandler(this.AboutForm_Load);
             this.ResumeLayout(false);
 

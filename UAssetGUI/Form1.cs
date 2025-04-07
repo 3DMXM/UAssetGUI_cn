@@ -1567,6 +1567,11 @@ namespace UAssetGUI
             UAGUtils.OpenURL("https://github.com/atenfyr/UAssetAPI");
         }
 
+        private void apiLinkToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            UAGUtils.OpenURL("https://github.com/3DMXM/UAssetGUI_cn");
+        }
+
         public void SetParsingVersion(EngineVersion ver)
         {
             if (ver == ParsingVersion) return;

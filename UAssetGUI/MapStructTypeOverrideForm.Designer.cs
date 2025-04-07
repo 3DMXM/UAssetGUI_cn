@@ -41,7 +41,7 @@
             // 
             // mstoDataGridView
             // 
-            this.mstoDataGridView.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.mstoDataGridView.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.mstoDataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.mstoDataGridView.BackgroundColor = System.Drawing.Color.LightGray;
@@ -70,7 +70,7 @@
             // 
             // infoLabel
             // 
-            this.infoLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.infoLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.infoLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
             this.infoLabel.Location = new System.Drawing.Point(13, 9);
@@ -89,7 +89,7 @@
             this.refreshButton.Name = "refreshButton";
             this.refreshButton.Size = new System.Drawing.Size(75, 26);
             this.refreshButton.TabIndex = 2;
-            this.refreshButton.Text = "Refresh";
+            this.refreshButton.Text = "刷新";
             this.refreshButton.UseVisualStyleBackColor = true;
             this.refreshButton.Click += new System.EventHandler(this.refreshButton_Click);
             // 
@@ -103,7 +103,7 @@
             this.closeButton.Name = "closeButton";
             this.closeButton.Size = new System.Drawing.Size(75, 26);
             this.closeButton.TabIndex = 3;
-            this.closeButton.Text = "Close";
+            this.closeButton.Text = "关闭";
             this.closeButton.UseVisualStyleBackColor = true;
             this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
             // 
@@ -116,7 +116,7 @@
             this.exportButton.Name = "exportButton";
             this.exportButton.Size = new System.Drawing.Size(75, 26);
             this.exportButton.TabIndex = 4;
-            this.exportButton.Text = "Export";
+            this.exportButton.Text = "导出";
             this.exportButton.UseVisualStyleBackColor = true;
             this.exportButton.Click += new System.EventHandler(this.exportButton_Click);
             // 
@@ -129,7 +129,7 @@
             this.importButton.Name = "importButton";
             this.importButton.Size = new System.Drawing.Size(75, 26);
             this.importButton.TabIndex = 5;
-            this.importButton.Text = "Import";
+            this.importButton.Text = "导入";
             this.importButton.UseVisualStyleBackColor = true;
             this.importButton.Click += new System.EventHandler(this.importButton_Click);
             // 
@@ -142,7 +142,7 @@
             this.resetButton.Name = "resetButton";
             this.resetButton.Size = new System.Drawing.Size(75, 26);
             this.resetButton.TabIndex = 6;
-            this.resetButton.Text = "Reset";
+            this.resetButton.Text = "重置";
             this.resetButton.UseVisualStyleBackColor = true;
             this.resetButton.Click += new System.EventHandler(this.resetButton_Click);
             // 
@@ -159,7 +159,7 @@
             this.Controls.Add(this.infoLabel);
             this.Controls.Add(this.mstoDataGridView);
             this.Name = "MapStructTypeOverrideForm";
-            this.Text = "Map Struct Type Overrides";
+            this.Text = "Map 结构类型覆盖";
             this.Load += new System.EventHandler(this.MapStructTypeOverrideForm_Load);
             this.Resize += new System.EventHandler(this.MapStructTypeOverrideForm_Resize);
             ((System.ComponentModel.ISupportInitialize)(this.mstoDataGridView)).EndInit();

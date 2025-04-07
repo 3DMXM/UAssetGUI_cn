@@ -61,7 +61,7 @@
             infoLabel.Name = "infoLabel";
             infoLabel.Size = new System.Drawing.Size(392, 46);
             infoLabel.TabIndex = 1;
-            infoLabel.Text = "Settings:";
+            infoLabel.Text = "设置:";
             infoLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // closeButton
@@ -75,7 +75,7 @@
             closeButton.Name = "closeButton";
             closeButton.Size = new System.Drawing.Size(88, 30);
             closeButton.TabIndex = 4;
-            closeButton.Text = "Close";
+            closeButton.Text = "关闭";
             closeButton.UseVisualStyleBackColor = true;
             closeButton.Click += closeButton_Click;
             // 
@@ -88,7 +88,7 @@
             label1.Name = "label1";
             label1.Size = new System.Drawing.Size(53, 16);
             label1.TabIndex = 5;
-            label1.Text = "Theme:";
+            label1.Text = "主题:";
             // 
             // label2
             // 
@@ -99,7 +99,7 @@
             label2.Name = "label2";
             label2.Size = new System.Drawing.Size(96, 16);
             label2.TabIndex = 6;
-            label2.Text = "Favorite Thing:";
+            label2.Text = "喜欢的事情:";
             // 
             // aboutButton
             // 
@@ -112,7 +112,7 @@
             aboutButton.Name = "aboutButton";
             aboutButton.Size = new System.Drawing.Size(88, 30);
             aboutButton.TabIndex = 7;
-            aboutButton.Text = "About...";
+            aboutButton.Text = "关于...";
             aboutButton.UseVisualStyleBackColor = true;
             aboutButton.Click += aboutButton_Click;
             // 
@@ -144,7 +144,7 @@
             valuesOnScroll.Name = "valuesOnScroll";
             valuesOnScroll.Size = new System.Drawing.Size(151, 19);
             valuesOnScroll.TabIndex = 10;
-            valuesOnScroll.Text = "Change values on scroll";
+            valuesOnScroll.Text = "滚动时更改的值";
             valuesOnScroll.UseVisualStyleBackColor = true;
             valuesOnScroll.CheckedChanged += valuesOnScroll_CheckedChanged;
             // 
@@ -176,7 +176,7 @@
             enableDiscordRpc.Name = "enableDiscordRpc";
             enableDiscordRpc.Size = new System.Drawing.Size(129, 19);
             enableDiscordRpc.TabIndex = 13;
-            enableDiscordRpc.Text = "Enable Discord RPC";
+            enableDiscordRpc.Text = "启用 Discord RPC";
             enableDiscordRpc.UseVisualStyleBackColor = true;
             enableDiscordRpc.CheckedChanged += enableDiscordRpc_CheckedChanged;
             // 
@@ -188,7 +188,7 @@
             enableDynamicTree.Name = "enableDynamicTree";
             enableDynamicTree.Size = new System.Drawing.Size(133, 19);
             enableDynamicTree.TabIndex = 14;
-            enableDynamicTree.Text = "Enable dynamic tree";
+            enableDynamicTree.Text = "启用 dynamic tree";
             enableDynamicTree.UseVisualStyleBackColor = true;
             enableDynamicTree.CheckedChanged += enableDynamicTree_CheckedChanged;
             // 
@@ -212,7 +212,7 @@
             enableBak.Name = "enableBak";
             enableBak.Size = new System.Drawing.Size(110, 19);
             enableBak.TabIndex = 16;
-            enableBak.Text = "Enable .bak files";
+            enableBak.Text = "启用 .bak 文件";
             enableBak.UseVisualStyleBackColor = true;
             enableBak.CheckedChanged += enableBak_CheckedChanged;
             // 
@@ -224,7 +224,7 @@
             restoreSize.Name = "restoreSize";
             restoreSize.Size = new System.Drawing.Size(156, 19);
             restoreSize.TabIndex = 17;
-            restoreSize.Text = "Restore GUI size on open";
+            restoreSize.Text = "打开时恢复 GUI 大小";
             restoreSize.UseVisualStyleBackColor = true;
             restoreSize.CheckedChanged += restoreSize_CheckedChanged;
             // 
@@ -236,7 +236,7 @@
             enableUpdateNotice.Name = "enableUpdateNotice";
             enableUpdateNotice.Size = new System.Drawing.Size(137, 19);
             enableUpdateNotice.TabIndex = 18;
-            enableUpdateNotice.Text = "Enable update notice";
+            enableUpdateNotice.Text = "启用更新通知";
             enableUpdateNotice.UseVisualStyleBackColor = true;
             enableUpdateNotice.CheckedChanged += enableUpdateNotice_CheckedChanged;
             // 
@@ -248,7 +248,7 @@
             enablePrettyBytecode.Name = "enablePrettyBytecode";
             enablePrettyBytecode.Size = new System.Drawing.Size(147, 19);
             enablePrettyBytecode.TabIndex = 19;
-            enablePrettyBytecode.Text = "Enable pretty bytecode";
+            enablePrettyBytecode.Text = "启用 pretty bytecode";
             enablePrettyBytecode.UseVisualStyleBackColor = true;
             enablePrettyBytecode.CheckedChanged += enablePrettyBytecode_CheckedChanged;
             // 
@@ -261,7 +261,7 @@
             label4.Name = "label4";
             label4.Size = new System.Drawing.Size(44, 16);
             label4.TabIndex = 21;
-            label4.Text = "Flags:";
+            label4.Text = "标签:";
             // 
             // customSerializationFlagsBox
             // 
@@ -313,7 +313,7 @@
             FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             Name = "SettingsForm";
-            Text = "Settings";
+            Text = "设置";
             FormClosing += SettingsForm_FormClosing;
             Load += SettingsForm_Load;
             ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
